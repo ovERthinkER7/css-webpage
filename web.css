@@ -6,6 +6,20 @@ body{
     font-size: 1.1em;
     text-align: center;
     line-height: 1.5;
+    
+}
+h2{
+    margin: 0;
+    padding: 1em;
+}
+p{
+    margin: 0;
+    padding: 1em;
+}
+img{
+    display: block;
+    height: auto;
+    width: 100%;
 }
 .bg{
     position: absolute;
@@ -21,6 +35,7 @@ body{
 
 #headerid{
     text-align: center;
+    min-height: 450px;
 }
 #headerid h1{
     padding-top: 100px;
@@ -39,4 +54,29 @@ body{
     background: #fff;
     color: #000;
     cursor: pointer;
+}
+#section-a{
+    background: #eaeaea;
+    color: #000;
+    padding-bottom: 2em;
+}
+
+#section-b{
+    display: grid;
+    padding: 2em;
+}
+#section-b ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    width: 31%;
+    margin-bottom: 1em;
 }
