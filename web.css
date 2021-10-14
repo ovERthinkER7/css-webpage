@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: #333;
     color: white;
@@ -6,22 +6,21 @@ body{
     font-size: 1.1em;
     text-align: center;
     line-height: 1.5;
-    
 }
-h2{
+h2 {
     margin: 0;
     padding: 1em;
 }
-p{
+p {
     margin: 0;
     padding: 1em;
 }
-img{
+img {
     display: block;
     height: auto;
     width: 100%;
 }
-.bg{
+.bg {
     position: absolute;
     background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
     background-position: center;
@@ -33,39 +32,39 @@ img{
     opacity: 0.5;
 }
 
-#headerid{
+#headerid {
     text-align: center;
     min-height: 450px;
 }
-#headerid h1{
+#headerid h1 {
     padding-top: 100px;
     padding-bottom: 0;
 }
-#headerid p{
-    padding: 0 250px 0 250px ;
+#headerid p {
+    padding: 0 250px 0 250px;
     margin-bottom: 30px;
 }
-.bttn{
+.bttn {
     background: #333;
-    border: 1px solid #666; 
+    border: 1px solid #666;
     padding: 1em;
 }
-.bttn:hover{
+.bttn:hover {
     background: #fff;
     color: #000;
     cursor: pointer;
 }
-#section-a{
+#section-a {
     background: #eaeaea;
     color: #000;
     padding-bottom: 2em;
 }
 
-#section-b{
+#section-b {
     display: grid;
     padding: 2em;
 }
-#section-b ul{
+#section-b ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -74,14 +73,37 @@ img{
     padding-left: 11em;
     padding-right: 11em;
 }
-#section-b li{
+#section-b li {
     background: #fff;
     color: #333;
     width: 31%;
     margin-bottom: 1em;
 }
-#section-c{
+#section-c {
     background: white;
     color: #000;
-    padding: 1em;
+    padding: 2em;
+}
+#section-d {
+    display: flex;
+}
+.one_block {
+    background: #2690d4;
+    width: 50%;
+    padding: 2em 1em 2em 1em;
+}
+.two_block {
+    width: 50%;
+    padding: 2em 1em 2em 1em;
+}
+#footer {
+    background: #000;
+    display: flex;
+    padding: 2em 1em 2em 1em;
+}
+.left {
+    width: 50%;
+}
+.right {
+    width: 50%;
 }
